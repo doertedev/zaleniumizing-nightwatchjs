@@ -1,0 +1,30 @@
+{
+  "name": "frontend-tests",
+  "version": "1.0.0",
+  "description": "This is a set of nightwatchjs tests to test the website instana.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doertedev/zaleniumizing-nightwatchjs.git"
+  },
+  "keywords": [
+    "zalenium",
+    "selenium",
+    "nightwatchjs",
+    "frontend",
+    "tests",
+    "e2e"
+  ],
+  "author": "Stefan Staudenmeyer (@doertedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doertedev/zaleniumizing-nightwatchjs/issues"
+  },
+  "homepage": "https://github.com/doertedev/zaleniumizing-nightwatchjs#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}

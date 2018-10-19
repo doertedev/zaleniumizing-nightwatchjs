@@ -1,0 +1,12 @@
+# nodejs dependencies
+node_modules/
+yarn.lock
+package-lock.json
+
+# nightwatch-generated html reports
+tests_output/
+
+# IDE related settings folders
+.vscode/
+.idea/
+*.iml
