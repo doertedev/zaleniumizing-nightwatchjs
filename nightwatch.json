@@ -1,12 +1,12 @@
 {
 	"src_folders": ["."],
+
 	"selenium": {
  		"start_process": false,
 		"host" : "zalenium-tmp.qa-instana.io",
 		"port" : 30000,
     "cli_args" : {
-      "webdriver.chrome.driver" : "/usr/local/bin/chromedriver",
-      "webdriver.gecko.driver" : "/usr/local/bin/geckodriver"
+      "webdriver.chrome.driver" : "./node_modules/.bin/chromedriver"
     }
 	},
 	"test_settings": {
@@ -14,25 +14,17 @@
       "launch_url": "http://zalenium-tmp.qa-instana.io:30000",
       "selenium_port": 30000,
       "selenium_host": "zalenium-tmp.qa-instana.io",
+			"disable_colors": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "."
+      },
 			"desiredCapabilities": {
 				"tz": "Europe/Berlin",
 				"idleTimeout": 150,
-				"seleniumProtocol": "WebDriver",
 				"browserName": "chrome",
 				"javascriptEnabled": true,
 				"acceptSslCerts": true
-			},
- 			"disable_colors": true,
-			"screenshots": {
-				"enabled": false
-			}
-		},
-		"ff" : {
-			"desiredCapabilities": {
-				"tz": "Europe/Berlin",
-				"idleTimeout": 150,
-				"marionette": false,
-				"browserName": "firefox"
 			}
 		}
 	}

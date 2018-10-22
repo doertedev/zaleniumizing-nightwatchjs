@@ -6,6 +6,9 @@ package-lock.json
 # nightwatch-generated html reports
 tests_output/
 
+# screenshots to land on s3
+proof/
+
 # IDE related settings folders
 .vscode/
 .idea/

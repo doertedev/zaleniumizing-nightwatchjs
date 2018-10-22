@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/doertedev/zaleniumizing-nightwatchjs#readme",
   "dependencies": {
+    "chromedriver": "^2.43.0",
     "nightwatch": "^0.9.21"
   }
 }
